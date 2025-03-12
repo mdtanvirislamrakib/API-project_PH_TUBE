@@ -27,19 +27,56 @@
     <header>
         <nav class="w-11/12 mx-auto mt-5 flex items-center justify-between py-5">
             <div class="logo">
-                <img src="./Logo.png" alt="">
+                <img src="./Logo.png" alt="" class="w-[150px]">
             </div>
             <div class="sort">
                 <button class="btn">Sort by view</button>
             </div>
-            <button class="blog-btn bg-rose-600 text-xl px-5 py-2 border-none outline-none rounded-lg text-white cursor-pointer hover:bg-rose-500 transition-all">Blog</button>
+            <button
+                class="blog-btn bg-[#FF1F3D] text-lg px-8 py-2 border-none outline-none rounded-lg text-white cursor-pointer">Blog</button>
         </nav>
 
         <div class="border w-11/12 mx-auto border-gray-100"></div>
 
     </header>
-    
 
+    <nav id="category-container" class="py-6 flex items-center justify-center gap-5">
+        <button class="bg-[#FF1F3D] btn btn-sm text-white px-5" onclick="loadVideos()">All</button>
+    </nav>
+
+
+    <div id="video-container" class="grid grid-cols-4 gap-6 w-11/12 mx-auto">
+        <!-- <div class="card">
+            <figure class="relative">
+                <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" alt="Shoes" />
+                <span class="absolute bottom-2 right-1 bg-[#171717] text-gray-200 px-2 rounded-lg text-xs py-1">3hrs 56 min ago</span>
+            </figure>
+            <div class="flex gap-3 px-0  py-3">
+                
+                <div >
+                    <div class="avatar">
+                        <div class="w-8 rounded-full">
+                          <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="space-y-2">
+                    <h2 class="text-sm font-semibold">Building a Winning UX Strategy Using the Kano Model</h2>
+
+                    <div class="flex items-center gap-2">
+                        <p class="text-gray-600 text-sm">Awlad Hossen</p>
+                        <img src="./verify.png" alt="">
+                    </div>
+
+                    <p class="text-gray-600 text-xs font-semibold">91k view</p>
+                </div>
+            </div>
+        </div> -->
+    </div>
+
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
